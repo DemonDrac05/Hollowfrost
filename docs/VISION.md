@@ -1,4 +1,5 @@
-# Crescentia: Vision
+# Hollowfrost: Vision
+(codename: Crescentia)
 
 ## Premise
 A special-forces soldier is sent with a team of scientists to investigate a mysterious illness

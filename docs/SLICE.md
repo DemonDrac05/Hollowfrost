@@ -1,4 +1,5 @@
-# Vertical Slice
+# Hollowfrost: Vertical Slice
+(codename: Crescentia)
 
 ## Goal
 Prove two things: the game is worth playing, and the technology holds up.
