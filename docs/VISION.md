@@ -90,7 +90,8 @@ Evidence found in each region opens the way to the next.
 - Clients generate chunks from the seed and layout; the server sends only changes,
   verified by checksums.
 - Co-op PvE: client hit detection is trusted, the server sanity-checks.
-- Minimum spec: Intel Iris Xe, 16 GB RAM, Very Low, 30 FPS stable.
+- Minimum spec: Intel Iris Xe, 16 GB RAM, Low settings at full resolution, 30 FPS stable.
+- No volumetric clouds on Low/Medium: sky dome + Sky Atmosphere. Weather is data, the sky only renders it.
 
 ## Non-goals (for now)
 - PvP, more than 4 players, realistic graphics, vehicles, an infinite world.
