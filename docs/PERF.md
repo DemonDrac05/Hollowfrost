@@ -35,3 +35,13 @@ Finding: `scalability 0` sets r.ScreenPercentage to 50. Volumetric clouds cost a
 
 Finding: at Low these features are already off or negligible in an empty scene.
 Re-measure once real content exists: shadow and anti-aliasing costs grow with scene complexity.
+
+## 4. Two-player co-op over LAN (first-person template, clouds off)
+
+| Device              | Role          | Frame (ms) | Game (ms) | GPU (ms) | FPS | Ping (ms) | In / Out (B/s) |
+| ------------------- | ------------- | ---------- | --------- | -------- | --- | --------- | -------------- |
+| ThinkPad            | Listen server | 6.65       | 6.60      | 3.54     | 150 | -         | 4,336 / 2,903  |
+| HP                  | Client        | 11.39      | 8.06      | 11.53    | 88  | 17        | 3,284 / 4,649  |
+
+Finding: characters (skeletal mesh, animation, shadows) roughly double the HP frame time.
+Measure the cost of one enemy before designing enemy counts.
